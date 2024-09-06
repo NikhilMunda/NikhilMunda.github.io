@@ -1,3 +1,10 @@
+// Wait for the window to fully load
+window.onload = function() {
+    // Hide the loading screen
+    document.getElementById('loading-screen').style.display = 'none';
+};
+        
+
 /**
  * @author Vinit Shahdeo <vinitshahdeo@gmail.com>
  */
