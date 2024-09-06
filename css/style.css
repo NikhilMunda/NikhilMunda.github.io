@@ -19,8 +19,7 @@
 
 /* Hide main content until the page fully loads */
 #main-content {
-    display: none;
-}
+   /* display: none;*/
 	
 @-webkit-keyframes fall {
 	0% {
@@ -600,4 +599,5 @@ a {
 	display: flex;
 	font-size: 12px;
 	letter-spacing: 0pt;
+}
 }
