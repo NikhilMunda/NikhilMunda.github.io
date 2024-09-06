@@ -7,7 +7,6 @@ window.onload = function() {
         // Show the main content
         document.getElementById('main-content').style.display = 'block';
     }, 1500); // 1000 milliseconds = 1 second
-};
         
 
 /**
@@ -105,3 +104,4 @@ console.log(
     `%cShaadi me zaroor aana!\n\n`,
     'color: yellow; background:tomato; font-size: 24pt; font-weight: bold',
 )
+}:
