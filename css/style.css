@@ -19,7 +19,7 @@
 /* Hide main content until the page fully loads */
 #main-content {
     display: none;
-}
+	
 @-webkit-keyframes fall {
 	0% {
 		opacity: 0.9;
@@ -598,4 +598,5 @@ a {
 	display: flex;
 	font-size: 12px;
 	letter-spacing: 0pt;
+}
 }
