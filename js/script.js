@@ -1,3 +1,10 @@
+window.onload = function() {
+    setTimeout(function() {
+        // Remove the "loading" class and add the "loaded" class
+        document.body.classList.remove('loading');
+        document.body.classList.add('loaded');
+    }, 1500); // 1.5 seconds delay
+};
 /**
  * @author Vinit Shahdeo <vinitshahdeo@gmail.com>
  */
