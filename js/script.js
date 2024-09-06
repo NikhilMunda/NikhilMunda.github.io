@@ -1,7 +1,8 @@
-// Wait for the window to fully load
+// When the window fully loads
 window.onload = function() {
     // Hide the loading screen
     document.getElementById('loading-screen').style.display = 'none';
+    // Display the main content
     document.getElementById('main-content').style.display = 'block';
 };
         
