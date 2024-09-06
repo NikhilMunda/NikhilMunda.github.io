@@ -1,9 +1,12 @@
 // When the window fully loads
 window.onload = function() {
-    // Hide the loading screen
-    document.getElementById('loading-screen').style.display = 'none';
-    // Display the main content
-    document.getElementById('main-content').style.display = 'block';
+     // Add a delay of 1 second (1000 milliseconds)
+    setTimeout(function() {
+        // Hide the loading screen
+        document.getElementById('loading-screen').style.display = 'none';
+        // Show the main content
+        document.getElementById('main-content').style.display = 'block';
+    }, 1000); // 1000 milliseconds = 1 second
 };
         
 
