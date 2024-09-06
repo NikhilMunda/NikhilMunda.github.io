@@ -10,11 +10,11 @@
     z-index: 9999;
 }
 
-/* Loading Image */
+/* Centered Loading Image */
 #loading-screen img {
-    width: 100%;
-    height: 100%;
-    object-fit: center; /* Ensures the image covers the entire area */
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain; /* Keeps aspect ratio, fitting the image within the container */
 }
 
 /* Hide main content until the page fully loads */
