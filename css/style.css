@@ -17,9 +17,22 @@
     object-fit: contain; /* Keeps aspect ratio, fitting the image within the container */
 }
 
-/* Hide main content until the page fully loads */
-#main-content {
-   /* display: none;*/
+/* Optional: To hide the loading screen after 1 second */
+body.loading #main-content {
+    display: none;
+}
+
+body.loading #loading-screen {
+    display: flex;
+}
+
+body.loaded #loading-screen {
+    display: none;
+}
+
+body.loaded #main-content {
+    display: block;
+}
 	
 @-webkit-keyframes fall {
 	0% {
@@ -599,5 +612,4 @@ a {
 	display: flex;
 	font-size: 12px;
 	letter-spacing: 0pt;
-}
 }
