@@ -6,7 +6,7 @@ window.onload = function() {
         document.getElementById('loading-screen').style.display = 'none';
         // Show the main content
         document.getElementById('main-content').style.display = 'block';
-    }, 4000); // 1000 milliseconds = 1 second
+    }, 1500); // 1000 milliseconds = 1 second
 };
         
 
