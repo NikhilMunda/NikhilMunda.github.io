@@ -32,6 +32,38 @@ body.loaded #media {
     display: block;
 }
 
+/* Scroll Down Arrow Styles */
+.scroll-down-arrow {
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    display: none; /* Initially hidden */
+    animation: slideDown 1.5s infinite ease-in-out;
+    z-index: 9999; /* Keeps it on top of other content */
+}
+
+/* Slide Down Animation */
+@keyframes slideDown {
+    0% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    50% {
+        transform: translateY(10px);
+        opacity: 0.7;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Custom Arrow PNG Image */
+.scroll-down-arrow img {
+    width: 70px; /* Customize size */
+    height: auto;
+}
+
 @-webkit-keyframes fall {
 	0% {
 		opacity: 0.9;
