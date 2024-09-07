@@ -598,6 +598,11 @@ body {
 
 .date {
 	color: #874562;
+	font-weight: 900;
+}
+
+.fate {
+	color: #973bae;
 	font-weight: 550;
 }
 
