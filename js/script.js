@@ -1,8 +1,18 @@
+// Optionally, hide the arrow after the user scrolls
+window.onscroll = function() {
+    const arrow = document.querySelector('.scroll-down-arrow');
+    if (window.scrollY > 100) {
+        arrow.style.display = 'none';
+    }
+};
+
 window.onload = function() {
     setTimeout(function() {
         // Remove the "loading" class and add the "loaded" class
         document.body.classList.remove('loading');
         document.body.classList.add('loaded');
+        // Delay showing the arrow by 1.5 seconds
+        document.querySelector('.scroll-down-arrow').style.display = 'block';
     }, 1500); // 1.5 seconds delay
 };
 /**
