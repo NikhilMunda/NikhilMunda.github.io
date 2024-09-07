@@ -15,7 +15,7 @@
 #loading-screen img {
     max-width: 100%; /* You can adjust the size of the loading image */
     max-height: 100%;
-	object-fit: contain;
+    object-fit: contain;
 }
 
 /* Hide the main content initially */
